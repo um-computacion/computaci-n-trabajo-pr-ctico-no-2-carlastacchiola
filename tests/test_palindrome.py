@@ -9,4 +9,11 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("reconocer"))
         self.assertTrue(is_palindrome("arenera"))
 
+    def test_frases_palindromas(self):
+        self.assertTrue(is_palindrome("La ruta natural"))
+        self.assertTrue(is_palindrome("Sé verlas al revés"))
+        self.assertTrue(is_palindrome("Yo hago yoga hoy"))
+        self.assertTrue(is_palindrome("Somos o no somos"))
+
+
 
