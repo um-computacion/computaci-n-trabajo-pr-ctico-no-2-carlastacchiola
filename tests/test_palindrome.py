@@ -21,3 +21,14 @@ class TestPalindrome(unittest.TestCase):
         self.assertFalse(is_palindrome("Hoy es lunes"))
         self.assertFalse(is_palindrome("Somos o no"))
 
+    def test_casos_edge(self):
+        self.assertTrue(is_palindrome(""))  
+        self.assertTrue(is_palindrome(" "))  
+        self.assertTrue(is_palindrome("a"))
+        self.assertTrue(is_palindrome("$%"))  
+        self.assertTrue(is_palindrome("12321"))  
+        self.assertFalse(is_palindrome("12345"))  
+        self.assertTrue(is_palindrome("!"))  
+
+
+
