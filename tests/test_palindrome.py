@@ -15,5 +15,9 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("Yo hago yoga hoy"))
         self.assertTrue(is_palindrome("Somos o no somos"))
 
-
+    def test_casos_no_palindromos(self):
+        self.assertFalse(is_palindrome("Hola Mundo"))
+        self.assertFalse(is_palindrome("Python es genial"))
+        self.assertFalse(is_palindrome("Hoy es lunes"))
+        self.assertFalse(is_palindrome("Somos o no"))
 
