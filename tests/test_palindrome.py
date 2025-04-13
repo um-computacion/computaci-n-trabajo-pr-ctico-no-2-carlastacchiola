@@ -31,4 +31,3 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("!"))  
 
 
-
